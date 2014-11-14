@@ -11,7 +11,7 @@ If you don't want to have to look at the code here is the important part, these 
 		(new ObjectStorageHelper<ApplicationSettings>(StorageType.Local)).Save(AppSettings, "ApplicationSettings");
 	}
 
-## Mmethod to load settings
+## Method to load settings
 	private static void LoadSettings()
 	{
 		AppSettings = (new ObjectStorageHelper<ApplicationSettings>(StorageType.Local)).Load("ApplicationSettings", new ApplicationSettings());
